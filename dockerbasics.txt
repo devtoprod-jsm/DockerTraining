@@ -1,0 +1,7 @@
+docker -h --- To get the usage of the command
+
+docker build --- To build an image
+ex: docker build -t hello-docker:1.0.0 .
+
+docker run --- To run a container from an image
+ex: docker run --name hello-docker-container -p 8080:80 -d hello-docker:1.0.0
